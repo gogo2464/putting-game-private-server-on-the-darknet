@@ -7,6 +7,7 @@ Provide a private server that does not require to maintain code to work: Private
 <li>Provide a private server that does not require to maintain code to work: Private servers only work once you have the private server code ready.</li>
 <li>Allow juridically to deploy a private server: Minecraft provide server binaries. It is then absolutely legal to publish such server.</li>
 <li>Still proprietary target to force the user to dissect the minecraft source code for future purpose: In the future we could write a private server based on p2p instead of TOR.</li>
+<li>Tor can be relatively fast for a darknet. Could still be better for card game or less memory intensive games.</li>
 </ul>
 <h1 id="i--deploy-on-a-debian-12-minecraft-server">I / Deploy On A debian 12 Minecraft Server</h1>
 <p>We are going to run a Minecraft server right now. First, enable TOR server:</p>
@@ -52,8 +53,8 @@ Provide a private server that does not require to maintain code to work: Private
 </span></span><span style="display:flex;"><span>sudo rm -f Minecraft.deb <span style="color:#f92672">&amp;&amp;</span>
 </span></span><span style="display:flex;"><span>taskset -a <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>minecraft-launcher<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
 </span></span></code></pre></div><p>Then connect to the server with the address <code>rde2ynhyv3vyov7rxgp5ko2brwib2jilae5cpviiwp3tyar6mqwq2yid.onion:4444</code>.</p>
-<p><img alt="image" src="/minecraft-on-tor/connect.png"></p>
+<p><img alt="image" src="/gogo-s-blog/minecraft-on-tor/connect.png"></p>
 <p>You are now connected!</p>
 <p><img alt="image" src="/gogo-s-blog/minecraft-on-tor/result.png"></p>
-<p>Congratulation!</p>
+<p>Congratulation! You are now able to play minecraft on Tor darknet.</p>
 ]]></content></item></channel></rss>
